@@ -12,6 +12,19 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        'bgwhite': "url('/background-white.png')",
+        'bgdark': "url('/background-dark.png')",
+      },
+      backdropContrast: {
+        85: ".85"
+      },
+      fontFamily: {
+        libre: ['"Libre Baskerville"', 'serif'],
+        notosans: ['"Noto Sans"', 'sans-serif'],
+        rubik: ['"Rubik"', 'sans-serif'],
+        kanit: ['"Kanit"', 'sans-serif'],
+      },
     },
   },
   plugins: [],
