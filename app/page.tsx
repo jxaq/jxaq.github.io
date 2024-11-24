@@ -15,6 +15,22 @@ export default function Home() {
             In recent years, I have been learning how to develop software, and I have been working on various projects to improve my skills (This portfolio is my first large project!). I have experience with various programming languages, such as TypeScript, JavaScript, and a little bit of Python, and I have experience with various frameworks and libraries, such as React, and Next.js.
           </p>
       </div>
+      <div className="text-noto relative z-10 border border-slate-300 dark:border-slate-100 rounded-md shadow-md md:shadow-xl p-2 md:p-4 w-full md:w-2/5 mx-auto mt-4 md:mt-8">
+        <h2 className="font-bold text-lg dark:text-blue-300 text-blue-700">Socials</h2>
+          <p className="text-violet-950 dark:text-violet-200">
+            <a href="https://github.com/jxaq" target="_blank" rel="noreferrer noopener" className="hover:text-blue-700 dark:hover:text-blue-300">GitHub</a><br />
+            <a href="https://twitter.com/JaxK5546" target="_blank" rel="noreferrer noopener" className="hover:text-blue-700 dark:hover:text-blue-300">Twitter</a><br />
+            <a href="https://mastodon.social/jacksonk" target="_blank" rel="noreferrer noopener" className="hover:text-blue-700 dark:hover:text-blue-300">Mastodon</a><br />
+            <a href="https://discord.com/users/632415379519569950" target="_blank" rel="noreferrer noopener" className="hover:text-blue-700 dark:hover:text-blue-300">Discord</a><br />
+            <a href="mailto:jackson.kelly2@outlook.com" className="hover:text-blue-700 dark:hover:text-blue-300">Email</a>
+          </p>
+      </div>
+      <div className="text-noto relative z-10 border border-slate-300 dark:border-slate-100 rounded-md shadow-md md:shadow-xl p-2 md:p-4 w-full md:w-4/5 mx-auto mt-4 md:mt-8">
+        <h2 className="font-bold text-lg dark:text-blue-300 text-blue-700">Experience & Projects</h2>
+          <p className="text-violet-950 dark:text-violet-200">
+            Over time, there has been a few projects that I worked on and also I have helped with a lot of events and other projects in my school life.
+          </p>
+      </div>
       <div className="fixed inset-0 -z-10 bg-bgwhite dark:bg-bgdark bg-repeat w-full h-full"></div>
     </div>
   );
