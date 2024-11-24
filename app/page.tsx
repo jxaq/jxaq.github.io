@@ -28,8 +28,19 @@ export default function Home() {
       <div className="text-noto relative z-10 border border-slate-300 dark:border-slate-100 rounded-md shadow-md md:shadow-xl p-2 md:p-4 w-full md:w-4/5 mx-auto mt-4 md:mt-8">
         <h2 className="font-bold text-lg dark:text-blue-300 text-blue-700">Experience & Projects</h2>
           <p className="text-violet-950 dark:text-violet-200">
-            Over time, there has been a few projects that I worked on and also I have helped with a lot of events and other projects in my school life.
-          </p>
+            Over time, there has been a few projects that I worked on and also I have helped with a lot of events and other projects in my school life.<br /><br /></p>
+            <b>Projects:</b><br />
+            <ul>
+              <li>My portfolio (This website!)</li>
+              <li>QSYS Audio System for my school hall.</li>
+            </ul>
+            <b>Events:</b><br />
+            <ul>
+              <li>Showquest 2024 - Waikato - Main Lighting for my school (We got 1st place regionals!)</li>
+              <li>Wearable Arts 2024 - Lighting Manager</li>
+              <li></li>
+            </ul>
+          
       </div>
       <div className="fixed inset-0 -z-10 bg-bgwhite dark:bg-bgdark bg-repeat w-full h-full"></div>
     </div>
