@@ -29,16 +29,15 @@ export default function Home() {
         <h2 className="font-bold text-lg dark:text-blue-300 text-blue-700">Experience & Projects</h2>
           <p className="text-violet-950 dark:text-violet-200">
             Over time, there has been a few projects that I worked on and also I have helped with a lot of events and other projects in my school life.<br /><br /></p>
-            <b>Projects:</b><br />
+            <b className="text-violet-800 dark:text-violet-100">Projects:</b><br />
             <ul>
-              <li>My portfolio (This website!)</li>
-              <li>QSYS Audio System for my school hall.</li>
+              <li className="text-violet-950 dark:text-violet-200">My portfolio (This website!)</li>
+              <li className="text-violet-950 dark:text-violet-200">QSYS Audio System for my school hall.</li>
             </ul>
-            <b>Events:</b><br />
+            <b className="text-violet-800 dark:text-violet-100">Events:</b><br />
             <ul>
-              <li>Showquest 2024 - Waikato - Main Lighting for my school (We got 1st place regionals!)</li>
-              <li>Wearable Arts 2024 - Lighting Manager</li>
-              <li></li>
+              <li className="text-violet-950 dark:text-violet-200">Showquest 2024 - Waikato - Main Lighting for my school (We got 1st place regionals!)</li>
+              <li className="text-violet-950 dark:text-violet-200">Wearable Arts 2024 - Lighting Manager</li>
             </ul>
           
       </div>
