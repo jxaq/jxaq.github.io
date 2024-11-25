@@ -1,101 +1,47 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className="relative min-h-screen w-full">
+      <div className="fixed z-20 top-2 md:top-4 w-full left-1/2 transform -translate-x-1/2">
+        <div className="backdrop-blur-md z-20 border border-slate-300 dark:border-slate-100 rounded-md shadow-md md:shadow-xl p-2 md:p-4 w-full md:w-4/5 mx-auto backdrop-contrast-85">
+          <h1 className="font-kanit font-bold text-xl dark:text-blue-300 text-blue-700">Jackson Kelly</h1>
+          <h3 className="font-kanit text-slate-600 dark:text-slate-400">Learning Full-Stack Developer</h3>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </div>
+      <div className="text-noto relative z-10 border border-slate-300 dark:border-slate-100 rounded-md shadow-md md:shadow-xl p-2 md:p-4 w-full md:w-4/5 mx-auto mt-24 md:mt-32">
+        <h2 className="font-bold text-lg dark:text-blue-300 text-blue-700">About Me</h2>
+          <p className="text-violet-950 dark:text-violet-200">
+            Since I was a small child, I have always shown interest towards how things work, and the systems behind things. When I was a toddler, I was more interested in disassembling a vaccum cleaner than playing with toys. As a matter of fact, I never had <i>any</i> toys.
+            Over time, this interest has evolved into a passion for technology and software development. I have always been fascinated by the idea of improving the world one bit at a time, and the idea of being able to create something that can be used by millions of people around the world.<br /><br />
+            In recent years, I have been learning how to develop software, and I have been working on various projects to improve my skills (This portfolio is my first large project!). I have experience with various programming languages, such as TypeScript, JavaScript, and a little bit of Python, and I have experience with various frameworks and libraries, such as React, and Next.js.
+          </p>
+      </div>
+      <div className="text-noto relative z-10 border border-slate-300 dark:border-slate-100 rounded-md shadow-md md:shadow-xl p-2 md:p-4 w-full md:w-2/5 mx-auto mt-4 md:mt-8">
+        <h2 className="font-bold text-lg dark:text-blue-300 text-blue-700">Socials</h2>
+          <p className="text-violet-950 dark:text-violet-200">
+            <a href="https://github.com/jxaq" target="_blank" rel="noreferrer noopener" className="hover:text-blue-700 dark:hover:text-blue-300">GitHub</a><br />
+            <a href="https://twitter.com/JaxK5546" target="_blank" rel="noreferrer noopener" className="hover:text-blue-700 dark:hover:text-blue-300">Twitter</a><br />
+            <a href="https://mastodon.social/jacksonk" target="_blank" rel="noreferrer noopener" className="hover:text-blue-700 dark:hover:text-blue-300">Mastodon</a><br />
+            <a href="https://discord.com/users/632415379519569950" target="_blank" rel="noreferrer noopener" className="hover:text-blue-700 dark:hover:text-blue-300">Discord</a><br />
+            <a href="mailto:jackson.kelly2@outlook.com" className="hover:text-blue-700 dark:hover:text-blue-300">Email</a>
+          </p>
+      </div>
+      <div className="text-noto relative z-10 border border-slate-300 dark:border-slate-100 rounded-md shadow-md md:shadow-xl p-2 md:p-4 w-full md:w-4/5 mx-auto mt-4 md:mt-8">
+        <h2 className="font-bold text-lg dark:text-blue-300 text-blue-700">Experience & Projects</h2>
+          <p className="text-violet-950 dark:text-violet-200">
+            Over time, there has been a few projects that I worked on and also I have helped with a lot of events and other projects in my school life.<br /><br /></p>
+            <b className="text-violet-800 dark:text-violet-100">Projects:</b><br />
+            <ul>
+              <li className="text-violet-950 dark:text-violet-200">My portfolio (This website!)</li>
+              <li className="text-violet-950 dark:text-violet-200">QSYS Audio System for my school hall.</li>
+            </ul>
+            <b className="text-violet-800 dark:text-violet-100">Events:</b><br />
+            <ul>
+              <li className="text-violet-950 dark:text-violet-200">Showquest 2024 - Waikato - Main Lighting for my school (We got 1st place regionals!)</li>
+              <li className="text-violet-950 dark:text-violet-200">Wearable Arts 2024 - Lighting Manager</li>
+            </ul>
+          
+      </div>
+      <div className="fixed inset-0 -z-10 bg-bgwhite dark:bg-bgdark bg-repeat w-full h-full"></div>
     </div>
   );
 }
