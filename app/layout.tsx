@@ -12,12 +12,10 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
-
 export const metadata: Metadata = {
   title: "Jackson Kelly | Portfolio",
   description: "Jackson Kelly's portfolio",
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
