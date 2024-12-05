@@ -1,10 +1,22 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="relative min-h-screen w-full">
       <div className="fixed z-20 top-2 md:top-4 w-full left-1/2 transform -translate-x-1/2">
-        <div className="backdrop-blur-md z-20 border border-slate-300 dark:border-slate-100 rounded-md shadow-md md:shadow-xl p-2 md:p-4 w-full md:w-4/5 mx-auto backdrop-contrast-85">
+        <div className="backdrop-blur-md z-20 border border-slate-300 dark:border-slate-100 rounded-md shadow-md md:shadow-xl p-2 md:p-4 w-full md:w-4/5 mx-auto backdrop-contrast-85 flex">
+        <div>
           <h1 className="font-kanit font-bold text-xl dark:text-blue-300 text-blue-700">Jackson Kelly</h1>
           <h3 className="font-kanit text-slate-600 dark:text-slate-400">Learning Full-Stack Developer</h3>
+          </div>
+          <Image 
+           src="/profile.png"
+           height={50}
+           width={50}
+           className="rounded-full ml-auto"
+           alt="A tortoiseshell cat, in a profile picture
+           "
+           />
         </div>
       </div>
       <div className="text-noto relative z-10 border border-slate-300 dark:border-slate-100 rounded-md shadow-md md:shadow-xl p-2 md:p-4 w-full md:w-4/5 mx-auto mt-24 md:mt-32">
