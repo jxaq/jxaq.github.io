@@ -22,9 +22,11 @@ export default function Home() {
       <div className="text-noto relative z-10 border border-slate-300 dark:border-slate-100 rounded-md shadow-md md:shadow-xl p-2 md:p-4 w-full md:w-4/5 mx-auto mt-24 md:mt-32">
         <h2 className="font-bold text-lg dark:text-blue-300 text-blue-700">About Me</h2>
           <p className="text-violet-950 dark:text-violet-200 text-noto">
-            Since I was a small child, I have always shown interest towards how things work, and the systems behind things. When I was a toddler, I was more interested in disassembling a vaccum cleaner than playing with toys. As a matter of fact, I never had <i>any</i> toys.
-            Over time, this interest has evolved into a passion for technology and software development. I have always been fascinated by the idea of improving the world one bit at a time, and the idea of being able to create something that can be used by millions of people around the world.<br /><br />
-            In recent years, I have been learning how to develop software, and I have been working on various projects to improve my skills (This portfolio is my first large project!). I have experience with various programming languages, such as TypeScript, JavaScript, and a little bit of Python, and I have experience with various frameworks and libraries, such as React, and Next.js.
+          Kia ora, I'm Jackson. I'm a college student (for Americans: high school), who's autistic and has ADHD. Since I was a small child, I have always been interested in systems and how they work. Whenever I see some sort of system or a piece of technology, I always
+          think about how something works and the process of it getting there. Over countless hours of reading, watching videos and talking
+          to people, I have managed to gain a sh*t ton of knowledge on almost everything (I'm not saying I know everything, but I know a lot).<br /><br />
+          One thing that stook out to me was programming, as it was a way to create systems, and some really advanced systems. One thing I especially like about computers (mainly programming), is that it is able to do extremely advanced things, like literally predicting the weather, or even controlling something else, on the other side of the world with almost no latency. <br /><br />
+          Since around September 2024, I have been learning HTML, CSS, and now JavaScript with freeCodeCamp. One day before school ended in 2024, I recievd a certification for Responive Web Design, from freeCodeCamp. Alongside their curriculum, I have been experimenting with TypeScript, and mainly Next.js. After a binge-searching documentation session, I am now trying out my first real project in Next.js (well, at least the second revision of the first project). That project would be this website. I know it only scratches the surface of what is possible with most frameworks, and etc, but I am proud of it. <br /><br />
           </p>
       </div>
       <div className="text-noto relative z-10 border border-slate-300 dark:border-slate-100 rounded-md shadow-md md:shadow-xl p-2 md:p-4 w-full md:w-2/5 mx-auto mt-4 md:mt-8">
@@ -58,4 +60,4 @@ export default function Home() {
       <div className="fixed inset-0 -z-10 bg-bgwhite dark:bg-bgdark bg-repeat w-full h-full"></div>
     </div>
   );
-}
+};
